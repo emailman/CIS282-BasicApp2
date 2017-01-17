@@ -59,8 +59,14 @@ public class MainActivity extends AppCompatActivity {
                 .setAction("Action", null).show();
 
         Log.d("Eric", "Handled a button click");
+
+        // Create a Text View object
         TextView timeView = (TextView) findViewById(R.id.tvDisplayTime);
+
+        // Create a Date object
         java.util.Date date = new java.util.Date();
+
+        // Put the date into the text view
         timeView.setText(date.toString());
     }
 }
