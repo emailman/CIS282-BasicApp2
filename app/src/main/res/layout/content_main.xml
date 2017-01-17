@@ -14,14 +14,14 @@
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:text="Click to get the current time"
+        android:text="@string/button_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnGetTimeClicked"
         android:id="@+id/btnGetTime" />
 
     <TextView
-        android:text=""
+        android:text="@string/text_view_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btnGetTime"
